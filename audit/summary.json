@@ -1,0 +1,17 @@
+{
+  "source_rules": 15071,
+  "active_rules": 13204,
+  "commented_rules": 1867,
+  "duplicate_condition_groups": 1810,
+  "cross_target_condition_groups": 1790,
+  "changed_exact_match_targets": 0,
+  "additional_containment_pairs": 1346,
+  "rule_providers": 23,
+  "proxy_groups": 28,
+  "comment_reasons": {
+    "same-priority-original-order": 79,
+    "service-over-generic": 170,
+    "lower-action-priority": 1618
+  },
+  "source_sha256": "e2455fa5e91c3786ac128f6a94e886379aae89962986878f4ef37d41ea32f2a1"
+}
