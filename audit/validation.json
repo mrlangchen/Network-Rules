@@ -1,0 +1,16 @@
+{
+  "original_rules": 15071,
+  "active_rules": 13204,
+  "commented_rules": 1867,
+  "provider_count": 23,
+  "group_count": 28,
+  "domain_probe_count": 20615,
+  "domain_probes_with_target_change": 93,
+  "group_references_and_cycles": "passed",
+  "active_condition_uniqueness": "passed",
+  "specific_service_precedence": "passed",
+  "known_private_values": "not present",
+  "mihomo_1_19_19_provider_fixture": "passed",
+  "mihomo_1_19_19_expanded_rules": "passed",
+  "scope": "offline parsing and synthetic domain-only matching, not live routing"
+}
