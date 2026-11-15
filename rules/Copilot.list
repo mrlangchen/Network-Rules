@@ -1,0 +1,87 @@
+# 🤖 Copilot
+# Active lines are executable. Disabled duplicates remain as comments.
+
+DOMAIN,browser.pipe.aria.microsoft.com
+DOMAIN,access-point.cloudmessaging.edge.microsoft.com
+DOMAIN,www.bingapis.com
+DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
+DOMAIN-SUFFIX,events.data.microsoft.com
+DOMAIN,functional.events.data.microsoft.com
+DOMAIN,designer.microsoft.com
+DOMAIN,edge.microsoft.com
+DOMAIN,api.msn.com
+DOMAIN,api.statsig.com
+DOMAIN,assets.msn.com
+# DISABLED source #5961; retained #4189 -> 🤖 ChatGPT [PROXY]
+# DOMAIN,browser-intake-datadoghq.com
+# DISABLED source #5962; retained #4184 -> 🤖 ChatGPT [PROXY]
+# DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,openai-api.arkoselabs.com
+# DISABLED source #5970; retained #4187 -> 🤖 ChatGPT [PROXY]
+# DOMAIN,openaicomproductionae4b.blob.core.windows.net
+# DISABLED source #5971; retained #4188 -> 🤖 ChatGPT [PROXY]
+# DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+# DISABLED source #5975; retained #4190 -> 🤖 ChatGPT [PROXY]
+# DOMAIN,static.cloudflareinsights.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+# DISABLED source #5978; retained #4191 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.microsoftapp.net
+# DISABLED source #5980; retained #4193 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,challenges.cloudflare.com
+# DISABLED source #5983; retained #4194 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,chatgpt.com
+# DISABLED source #5984; retained #4195 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,chatgpt.livekit.cloud
+# DISABLED source #5985; retained #4196 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+# DISABLED source #5987; retained #4197 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,events.statsigapi.net
+# DISABLED source #5988; retained #4198 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,featuregates.org
+# DISABLED source #5989; retained #4199 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,host.livekit.cloud
+# DISABLED source #5990; retained #4200 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,identrust.com
+# DISABLED source #5991; retained #4201 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,intercom.io
+# DISABLED source #5992; retained #4202 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,intercomcdn.com
+# DISABLED source #5993; retained #4203 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,launchdarkly.com
+# DISABLED source #5994; retained #4204 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,oaistatic.com
+# DISABLED source #5995; retained #4205 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,oaiusercontent.com
+# DISABLED source #5996; retained #4206 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,observeit.net
+# DISABLED source #5997; retained #4183 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+# DISABLED source #6000; retained #4207 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,segment.io
+# DISABLED source #6001; retained #4208 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,sentry.io
+# DISABLED source #6002; retained #4209 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,stripe.com
+# DISABLED source #6003; retained #4210 -> 🤖 ChatGPT [PROXY]
+# DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-KEYWORD,openaicom-api
+# DISABLED source #6005; retained #4212 -> 🤖 ChatGPT [PROXY]
+# IP-CIDR,24.199.123.28/32,no-resolve
+# DISABLED source #6006; retained #4213 -> 🤖 ChatGPT [PROXY]
+# IP-CIDR,64.23.132.171/32,no-resolve
