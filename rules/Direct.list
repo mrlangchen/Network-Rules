@@ -1,4 +1,8 @@
 # DIRECT
 # Active lines are executable. Disabled duplicates remain as comments.
 
+# Flow Keyboard：保留现有域名直连
 DOMAIN-SUFFIX,snowlineai.com
+
+# 钉钉日历：仅允许 macOS 日历同步进程访问这个主机时直连
+AND,((PROCESS-NAME,dataaccessd),(DOMAIN,calendar.dingtalk.com))
