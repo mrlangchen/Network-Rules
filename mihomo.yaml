@@ -369,6 +369,11 @@ proxy-groups:
   - "🇨🇳 台湾节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+- name: "🏠 国内服务"
+  type: select
+  proxies:
+  - DIRECT
+  - "🔗 ISP 链式代理"
 - name: "🐟 漏网之鱼"
   type: select
   proxies:
@@ -773,7 +778,6 @@ rules:
 - "RULE-SET,GitHub,🐙 GitHub"
 - "RULE-SET,AppDNS,🔗 ISP 链式代理"
 - "RULE-SET,Duolingo,🇸🇬 新加坡节点"
-- RULE-SET,Direct,DIRECT
 - "RULE-SET,Formula1,🏎️ Formula 1"
 - "RULE-SET,AppleTV,📺 Apple TV"
 - "RULE-SET,AppleAccount,🍎 Apple Account"
@@ -803,4 +807,5 @@ rules:
 - "RULE-SET,PayPal,💳 PayPal"
 - "RULE-SET,Stripe,💳 Stripe"
 - "RULE-SET,Binance,🪙 Binance"
+- "RULE-SET,Direct,🏠 国内服务"
 - "MATCH,🐟 漏网之鱼"
