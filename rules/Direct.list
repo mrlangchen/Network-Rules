@@ -22,6 +22,7 @@ DOMAIN,mmsns.qpic.cn
 DOMAIN,wx.qlogo.cn
 
 # 飞书钉钉
+DOMAIN-SUFFIX,feishu.cn
 DOMAIN,accounts.feishu.cn
 DOMAIN,msg-frontier-lf.feishu.cn
 DOMAIN,meetings-quic.feishu.cn
