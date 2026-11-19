@@ -81,3 +81,7 @@ DOMAIN-SUFFIX,xiaoyuzhoufm.com
 DOMAIN,media.xyzcdn.net
 DOMAIN,image.xyzcdn.net
 DOMAIN,static.xyzcdn.net
+
+# 国内通用匹配，出口由「🏠 国内服务」策略组选择
+DOMAIN-SUFFIX,cn
+GEOIP,CN
