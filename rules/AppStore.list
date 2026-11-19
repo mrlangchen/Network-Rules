@@ -1,0 +1,17 @@
+# AppStore
+# App Store 店面、购买、更新和下载；共享商店资源按匹配顺序使用本组。
+
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,appstoreconnect.apple.com
+DOMAIN,itunes.apple.com.cn
+DOMAIN,apps.mzstatic.com
+DOMAIN,init.itunes.apple.com
+DOMAIN,bag.itunes.apple.com
+DOMAIN,p24-buy.itunes.apple.com
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,osxapps.itunes.apple.com
+
+DOMAIN,testflight.apple.com
+DOMAIN,mzstorekit.itunes.apple.com
+DOMAIN,p52-buy.itunes.apple.com

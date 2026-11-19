@@ -1,24 +1,17 @@
-# 🎥 亚马逊视频
-# Active lines are executable. Disabled duplicates remain as comments.
+# AmazonPrime
+# Prime Video 及专用视频 CDN；不接管所有 CloudFront 客户。
 
 DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonprimevideo.cn
 DOMAIN-SUFFIX,amazonprimevideo.com.cn
 DOMAIN-SUFFIX,amazonprimevideos.com
-DOMAIN-SUFFIX,amazonvideo.cc
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,atv-ps.amazon.com
 DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
-DOMAIN-SUFFIX,fls-na.amazon.com
-DOMAIN-SUFFIX,llnwd.net
-DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,prime-video.com
 DOMAIN-SUFFIX,primevideo.cc
-# DISABLED source #5930; retained #5914 -> 🎥 亚马逊视频 [PROXY]
-# DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,primevideo.info
 DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,primevideo.tv

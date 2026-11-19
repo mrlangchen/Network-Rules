@@ -1,0 +1,6 @@
+# iTunes
+# iTunes 与通用商店内容，包括 App Store 和 Music 共享下载 CDN。
+
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,mzstatic.com

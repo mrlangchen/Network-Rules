@@ -1,0 +1,7 @@
+# ApplePush
+# Apple Push Notification service 及推送专用进程。
+
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN,identity.apple.com
+DOMAIN,push-apple.com.akadns.net
+PROCESS-NAME,apsd

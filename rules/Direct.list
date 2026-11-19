@@ -1,8 +1,82 @@
-# DIRECT
-# Active lines are executable. Disabled duplicates remain as comments.
+# Direct
+# 用户手动维护，保留本机已生效的公网直连白名单。
 
-# Flow Keyboard：保留现有域名直连
+# 浏览器、飞书内置页面等访问豆包或 Flow Keyboard 的专属域名时直连。
+DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,snowlineai.com
 
-# 钉钉日历：仅允许 macOS 日历同步进程访问这个主机时直连
+# 桌面应用包自身发起的连接。共享 AI 主机仍按前置规则使用 ISP。
+PROCESS-PATH-REGEX,^(/System/Volumes/Data)?(/Applications|/Users/[^/]+/Applications)/(Doubao|豆包)[.]app/Contents/
+PROCESS-PATH-REGEX,^(/System/Volumes/Data)?(/Applications|/Users/[^/]+/Applications)/Flow Keyboard[.]app/Contents/
+
 AND,((PROCESS-NAME,dataaccessd),(DOMAIN,calendar.dingtalk.com))
+
+# 微信
+DOMAIN,szextshort.weixin.qq.com
+DOMAIN,szminorshort.weixin.qq.com
+DOMAIN,szshort.weixin.qq.com
+DOMAIN,szlong.weixin.qq.com
+DOMAIN,wetype.weixin.qq.com
+DOMAIN,mmbiz.qpic.cn
+DOMAIN,mmsns.qpic.cn
+DOMAIN,wx.qlogo.cn
+
+# 飞书钉钉
+DOMAIN,accounts.feishu.cn
+DOMAIN,msg-frontier-lf.feishu.cn
+DOMAIN,meetings-quic.feishu.cn
+DOMAIN,s3-imfile.feishucdn.com
+DOMAIN,http2lwp.dingtalk.com
+DOMAIN,collab.dingtalk.com
+DOMAIN,alidocs.dingtalk.com
+DOMAIN,static.dingtalk.com
+
+# 小红书抖音
+DOMAIN,edith.xiaohongshu.com
+DOMAIN,rec.xiaohongshu.com
+DOMAIN,sns-video-v6.xhscdn.com
+DOMAIN,sns-video-default.xhscdn.com
+DOMAIN,api5-normal-lf.amemv.com
+DOMAIN,api-play.amemv.com
+DOMAIN,api-play-hl.amemv.com
+
+# 豆包Flow夸克
+DOMAIN,api.snowline.ai
+DOMAIN,lf5-doubao-cdn-tos.bytegecko.com
+DOMAIN,upush-msg-gw.quark.cn
+
+# 淘宝闪购支付宝
+DOMAIN,acs.m.taobao.com
+DOMAIN,guide-acs.m.taobao.com
+DOMAIN,cashier.ele.me
+DOMAIN,rsc-api.ele.me
+DOMAIN,waimai-guide.ele.me
+DOMAIN,mobilegw.alipay.com
+DOMAIN,datagw-edge.alipay.com
+DOMAIN,accountprod.alipay.com
+DOMAIN,gw.alipayobjects.com
+
+# 银行
+DOMAIN,mfb.cmbchina.cn
+DOMAIN,mdserver.paas.cmbchina.com
+DOMAIN,mobile.ccb.com
+DOMAIN,mb1.mp.ccb.com
+DOMAIN,ebanking1.ccb.com.cn
+
+# 网易邮箱
+DOMAIN,appleimap.126.com
+DOMAIN,mail.126.com
+DOMAIN,imap.126.com
+DOMAIN,smtp.126.com
+DOMAIN,mail.163.com
+DOMAIN,imap.163.com
+DOMAIN,smtp.163.com
+DOMAIN,mail.yeah.net
+DOMAIN,imap.yeah.net
+DOMAIN,smtp.yeah.net
+
+# 小宇宙
+DOMAIN-SUFFIX,xiaoyuzhoufm.com
+DOMAIN,media.xyzcdn.net
+DOMAIN,image.xyzcdn.net
+DOMAIN,static.xyzcdn.net

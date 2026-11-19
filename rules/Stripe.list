@@ -1,0 +1,8 @@
+# Stripe
+# Stripe 支付与 Link，AI 使用的 js.stripe.com 已被优先接管。
+
+DOMAIN-SUFFIX,link.com
+DOMAIN-SUFFIX,stripe-terminal-local-reader.net
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com

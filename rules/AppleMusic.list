@@ -1,0 +1,15 @@
+# AppleMusic
+# Apple Music 播放和订阅主机；Apple TV 音视频端点优先。
+
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,itunesradio.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
+DOMAIN,audio.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+
+DOMAIN,radio.itunes.apple.com
+
+# 重叠项保留为注释，首条有效匹配优先。
+# 本表由 DOMAIN-SUFFIX,music.apple.com 覆盖
+# DOMAIN,amp-api.music.apple.com

@@ -1,0 +1,149 @@
+# AI
+# 各家 AI 共用的第三方依赖；即使由其他应用访问同一主机也走 ISP。
+
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,challenges.cloudflare.com
+DOMAIN,cdnjs.cloudflare.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN,fonts.googleapis.com
+# 已由本表的 gstatic.com 后缀覆盖
+# DOMAIN,fonts.gstatic.com
+DOMAIN,cdn.jsdelivr.net
+DOMAIN,cdn.tailwindcss.com
+DOMAIN,code.jquery.com
+DOMAIN,unpkg.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,workos.imgix.net
+DOMAIN,humb.apple.com
+DOMAIN,register.appattest.apple.com
+DOMAIN,js.stripe.com
+
+# 身份核验。Persona 使用 withpersona.com 承载网页和 SDK，frompersona.com 用作发件域。
+# 域名规则只匹配实际连接。邮件中出现发件地址不会触发规则。
+DOMAIN-SUFFIX,withpersona.com
+DOMAIN-SUFFIX,frompersona.com
+# 参考页列出的地图 API 及其静态资源。同主机的普通地图请求也走 AI。
+DOMAIN,maps.googleapis.com
+# 已由本表的 gstatic.com 后缀覆盖
+# DOMAIN,maps.gstatic.com
+
+# Sentry 租户及区域接收端共用同一后缀。
+DOMAIN-SUFFIX,sentry.io
+# 已由上一条覆盖的原有主机
+# DOMAIN,o207216.ingest.sentry.io
+# DOMAIN,o33249.ingest.sentry.io
+
+# Datadog 商业区域的浏览器上报端点，后缀同时覆盖 rum、quota 等子域。
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,browser-intake-us3-datadoghq.com
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.eu
+DOMAIN-SUFFIX,browser-intake-ap1-datadoghq.com
+DOMAIN-SUFFIX,browser-intake-ap2-datadoghq.com
+DOMAIN-SUFFIX,browser-intake-uk1-datadoghq.com
+# 已由上述后缀覆盖的原有主机
+# DOMAIN,rum.browser-intake-datadoghq.com
+# DOMAIN,browser-intake-datadoghq.com
+# DOMAIN,browser-intake-us5-datadoghq.com
+
+# Sift 的服务域。覆盖网页脚本及 SDK，按共享依赖预留。
+DOMAIN-SUFFIX,sift.com
+DOMAIN-SUFFIX,siftscience.com
+
+DOMAIN,api.statsig.com
+DOMAIN,anthropic.auth0.com
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,client-api.arkoselabs.com
+DOMAIN,cdn.usefathom.com
+DOMAIN,github.com
+DOMAIN,api.github.com
+DOMAIN,github.githubassets.com
+DOMAIN,avatars.githubusercontent.com
+DOMAIN,storage.googleapis.com
+DOMAIN,registry.npmjs.org
+DOMAIN,raw.githubusercontent.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,formulae.brew.sh
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,login.microsoftonline.com
+DOMAIN,login.live.com
+DOMAIN-WILDCARD,*-review.googlesource.com
+DOMAIN,login.microsoft.com
+DOMAIN,login.windows.net
+DOMAIN,odc.officeapps.live.com
+DOMAIN,graph.microsoft.com
+DOMAIN,substrate.office.com
+DOMAIN,privacy.microsoft.com
+DOMAIN,cdn.odc.officeapps.live.com
+DOMAIN,logincdn.msauth.net
+DOMAIN,msedge.api.cdp.microsoft.com
+DOMAIN,config.edge.skype.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,do.dsp.mp.microsoft.com
+
+# 桌面客户端和浏览器共用的主机。gstatic.com 包括全部子域。
+DOMAIN,a.nel.cloudflare.com
+DOMAIN,update.googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN,edgedl.me.gvt1.com
+
+# Google 推送。FCM 设备连接、注册与消息 API 按目标匹配，所有应用共享。
+# https://firebase.google.com/docs/cloud-messaging/network-configuration
+DOMAIN,alt1-mtalk.google.com
+DOMAIN,alt2-mtalk.google.com
+DOMAIN,alt3-mtalk.google.com
+DOMAIN,alt4-mtalk.google.com
+DOMAIN,alt5-mtalk.google.com
+DOMAIN,alt6-mtalk.google.com
+DOMAIN,alt7-mtalk.google.com
+DOMAIN,alt8-mtalk.google.com
+DOMAIN,mtalk.google.com
+DOMAIN,mtalk4.google.com
+DOMAIN,mtalk-staging.google.com
+DOMAIN,mtalk-dev.google.com
+DOMAIN,android.apis.google.com
+DOMAIN,device-provisioning.googleapis.com
+DOMAIN,firebaseinstallations.googleapis.com
+DOMAIN,fcmregistrations.googleapis.com
+DOMAIN,fcm.googleapis.com
+
+# 旧 GoogleFCM 列表明确收录的单个 IPv4 地址。Google 的推送地址可变。
+IP-CIDR,64.233.177.188/32,no-resolve
+IP-CIDR,64.233.186.188/32,no-resolve
+IP-CIDR,64.233.187.188/32,no-resolve
+IP-CIDR,64.233.188.188/32,no-resolve
+IP-CIDR,64.233.189.188/32,no-resolve
+IP-CIDR,74.125.23.188/32,no-resolve
+IP-CIDR,74.125.24.188/32,no-resolve
+IP-CIDR,74.125.28.188/32,no-resolve
+IP-CIDR,74.125.127.188/32,no-resolve
+IP-CIDR,74.125.137.188/32,no-resolve
+IP-CIDR,74.125.203.188/32,no-resolve
+IP-CIDR,74.125.204.188/32,no-resolve
+IP-CIDR,74.125.206.188/32,no-resolve
+IP-CIDR,108.177.125.188/32,no-resolve
+IP-CIDR,142.250.4.188/32,no-resolve
+IP-CIDR,142.250.10.188/32,no-resolve
+IP-CIDR,142.250.31.188/32,no-resolve
+IP-CIDR,142.250.96.188/32,no-resolve
+IP-CIDR,172.217.194.188/32,no-resolve
+IP-CIDR,172.217.218.188/32,no-resolve
+IP-CIDR,172.217.219.188/32,no-resolve
+IP-CIDR,172.253.63.188/32,no-resolve
+IP-CIDR,172.253.122.188/32,no-resolve
+IP-CIDR,173.194.175.188/32,no-resolve
+IP-CIDR,173.194.218.188/32,no-resolve
+IP-CIDR,209.85.233.188/32,no-resolve
+
+# 共享登录资源及 Grok。
+DOMAIN,cdn.auth0.com
+DOMAIN-SUFFIX,grok.com

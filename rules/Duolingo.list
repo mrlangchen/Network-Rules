@@ -1,0 +1,5 @@
+# Duolingo
+# 多邻国国际及中国大陆服务统一使用新加坡地区节点。
+
+DOMAIN-SUFFIX,duolingo.com
+DOMAIN-SUFFIX,duolingo.cn

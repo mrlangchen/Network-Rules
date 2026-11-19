@@ -1,36 +1,37 @@
-# 🤖 ChatGPT
-# Active lines are executable. Disabled duplicates remain as comments.
+# ChatGPT
+# OpenAI、ChatGPT、Codex、附件和音视频服务。
 
-DOMAIN-KEYWORD,chatgpt
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN,openaicom.imgix.net
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN-REGEX,^chatgpt-async-webps-prod-[a-z0-9-]+-[0-9]+[.]webpubsub[.]azure[.]com$
+
+# macOS 桌面进程。应用包路径同时覆盖已版本化的 Helper 和内置工具。
+PROCESS-PATH-REGEX,^(/System/Volumes/Data)?(/Applications|/Users/[^/]+/Applications)/ChatGPT[.]app/Contents/
+# 以下专用进程名也可单独匹配。
+PROCESS-NAME,ChatGPT
+PROCESS-NAME,Codex (Aperitif)
+PROCESS-NAME,Codex (Service)
+PROCESS-NAME,codex
+# 上面的 ChatGPT 进程规则已覆盖此前的原生语音规则。
+# AND,((PROCESS-NAME,ChatGPT),(NETWORK,UDP),(DST-PORT,3478))
+
+DOMAIN,openaiassets.z19.web.core.windows.net
+
+# 重叠项保留为注释，首条有效匹配优先。
+# 本表由 DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net 覆盖
+# DOMAIN,chat.openai.com.cdn.cloudflare.net

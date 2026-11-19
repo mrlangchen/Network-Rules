@@ -1,5 +1,5 @@
-# Ⓜ️ 微软云盘
-# Active lines are executable. Disabled duplicates remain as comments.
+# OneDrive
+# OneDrive、微软个人云盘和 SharePoint。
 
 PROCESS-NAME,OneDrive
 PROCESS-NAME,OneDriveUpdater
@@ -17,3 +17,6 @@ DOMAIN-SUFFIX,skydrive.wns.windows.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
+DOMAIN-SUFFIX,sharepoint.cn
+DOMAIN-SUFFIX,1drv.com

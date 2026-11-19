@@ -1,0 +1,11 @@
+# AppDNS
+# 应用内解析服务的连接固定由 ISP 发送；仅匹配已确认或单独指定的目标。
+
+DOMAIN,dns.weixin.qq.com.cn
+DOMAIN,paydns.weixin.qq.com
+DOMAIN,ttnet-dig.feishu.cn
+DOMAIN,ttnet-doh.feishu.cn
+DOMAIN,dns.alidns.com
+DOMAIN,httpdns.baidu.com
+# 百度智能云 HTTPDNS 公布的服务入口。纯 IP 连接也走 ISP。
+IP-CIDR,180.76.76.200/32,no-resolve

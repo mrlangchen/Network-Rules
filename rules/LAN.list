@@ -1,0 +1,10 @@
+# LAN
+# 本机回环、localhost 和已确认的局域网设备。
+
+DOMAIN-SUFFIX,localhost
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR6,::1/128,no-resolve
+IP-CIDR,10.1.1.1/32,no-resolve
+
+# 设备地址示例。核对实际设备地址后才启用。
+# IP-CIDR,192.168.1.10/32,no-resolve

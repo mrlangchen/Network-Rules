@@ -1,0 +1,15 @@
+# HKBank
+# 香港银行。第一版收录中银香港、汇丰香港、恒生、渣打香港及东亚银行香港业务主机。
+
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hangseng.com
+DOMAIN-SUFFIX,hkbea.com
+DOMAIN,www.sc.com.hk
+
+# 众安银行 App 的网关、安全检查和应用内投资。
+DOMAIN,bankappgw.za.group
+DOMAIN,appguard.za.group
+DOMAIN,bank-stock.zainvest.group
+DOMAIN,bank-sbsmarket.zainvest.group
+DOMAIN,az3-marketpush-dr.zainvest.group

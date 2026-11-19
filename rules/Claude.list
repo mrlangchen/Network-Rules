@@ -1,27 +1,26 @@
-# 🤖 Claude
-# Active lines are executable. Disabled duplicates remain as comments.
+# Claude
+# Claude、Anthropic、桌面端和 Cowork 专用主机。
 
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.app
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
-DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
-# DISABLED source #5904; retained #4208 -> 🤖 ChatGPT [PROXY]
-# DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,statsigapi.net
-DOMAIN,browser-intake-us5-datadoghq.com
-DOMAIN-KEYWORD,datadog
-DOMAIN-KEYWORD,sift
-# DISABLED source #5909; retained #4201 -> 🤖 ChatGPT [PROXY]
-# DOMAIN-SUFFIX,intercom.io
-# DISABLED source #5910; retained #4202 -> 🤖 ChatGPT [PROXY]
-# DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN,cdn.usefathom.com
-IP-CIDR,160.79.104.0/21,no-resolve
-IP-CIDR6,2607:6bc0::/32,no-resolve
+
+# Anthropic 公布的 API / Console 入站地址。客户端连接这些目标 IP 时走 Claude。
+# https://platform.claude.com/docs/en/api/ip-addresses
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR,153.61.224.0/22,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
+
+# macOS 桌面进程。应用包路径同时覆盖已版本化的 Helper 和内置工具。
+PROCESS-PATH-REGEX,^(/System/Volumes/Data)?(/Applications|/Users/[^/]+/Applications)/Claude[.]app/Contents/
+# 以下专用进程名也可单独匹配。
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude Helper

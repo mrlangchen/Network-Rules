@@ -1,0 +1,5 @@
+# P2PDownload
+# 本地下载客户端的精确进程；PikPak 另有专组。
+
+PROCESS-PATH,/Applications/Transmission.app/Contents/MacOS/Transmission
+PROCESS-PATH,/Applications/qBittorrent.app/Contents/MacOS/qbittorrent

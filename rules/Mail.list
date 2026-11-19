@@ -1,0 +1,28 @@
+# Mail
+# 海外邮箱站点和协议主机；不按通用邮件端口给任意目标分流。
+
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,protonmail.com
+DOMAIN-SUFFIX,protonmail.ch
+DOMAIN-SUFFIX,pm.me
+DOMAIN-SUFFIX,fastmail.com
+DOMAIN-SUFFIX,messagingengine.com
+DOMAIN,mail.google.com
+DOMAIN,outlook.live.com
+DOMAIN,outlook.office.com
+DOMAIN,outlook.office365.com
+DOMAIN,smtp.office365.com
+DOMAIN,imap.mail.yahoo.com
+DOMAIN,smtp.mail.yahoo.com
+DOMAIN,mail.yahoo.com
+
+DOMAIN,m.hotmail.com
+
+# 重叠项保留为注释，首条有效匹配优先。
+# 本表由 DOMAIN-SUFFIX,gmail.com 覆盖
+# DOMAIN,imap.gmail.com
+# 本表由 DOMAIN-SUFFIX,gmail.com 覆盖
+# DOMAIN,smtp.gmail.com
+# 本表由 DOMAIN-SUFFIX,gmail.com 覆盖
+# DOMAIN,pop.gmail.com

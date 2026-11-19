@@ -1,0 +1,10 @@
+# iCloud
+# iCloud 同步、Drive、照片与 CloudKit，共享账户主机已在上层。
+
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-cloudkit.com.cn
+DOMAIN-SUFFIX,me.com
+DOMAIN,www-cdn.icloud.com.akadns.net

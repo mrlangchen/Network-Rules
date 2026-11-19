@@ -1,0 +1,10 @@
+# Brokerage
+# 券商。第一版覆盖 IBKR、富途及 moomoo。
+
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,interactivebrokers.com.hk
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,ibllc.com
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futu.hk
+DOMAIN-SUFFIX,moomoo.com

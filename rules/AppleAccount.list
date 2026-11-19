@@ -1,0 +1,15 @@
+# AppleAccount
+# Apple 账户、认证和登录。
+
+DOMAIN,account.apple.com
+DOMAIN,account.apple.com.cn
+DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,idmsa.apple.com
+DOMAIN,idmsa.apple.com.cn
+DOMAIN,idmsac.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,appleid.apple.com.akadns.net
+
+DOMAIN,gsas.apple.com
+DOMAIN,gsa-gpk.apple.com

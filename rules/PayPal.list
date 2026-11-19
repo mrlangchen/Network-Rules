@@ -1,0 +1,9 @@
+# PayPal
+# PayPal 支付、登录、静态内容与 Braintree。
+
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal.com.hk
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintreepayments.com
