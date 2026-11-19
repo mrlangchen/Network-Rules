@@ -27,10 +27,10 @@ proxy-groups:
 - name: "📹 视频服务"
   type: select
   proxies:
-  - "🇸🇬 新加坡节点"
-  - "🇨🇳 台湾节点"
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
+  - "🇸🇬 新加坡节点"
+  - "🇨🇳 台湾节点"
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
@@ -58,6 +58,9 @@ proxy-groups:
   type: select
   proxies:
   - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
+  - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
 - name: "☁️ CloudFlare"
   type: select
   proxies:
@@ -86,6 +89,7 @@ proxy-groups:
   - "🇨🇳 台湾节点"
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
+  - "🚀 节点选择"
 - name: "📺 Apple TV"
   type: select
   proxies:
@@ -94,44 +98,62 @@ proxy-groups:
   - "🇨🇳 台湾节点"
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
+  - "🚀 节点选择"
 - name: "🍎 Apple Account"
   type: select
   proxies:
   - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
+  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
+  - DIRECT
 - name: "🛍️ App Store"
   type: select
   proxies:
   - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
+  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
+  - DIRECT
 - name: "🎵 Apple Music"
   type: select
   proxies:
   - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
+  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
+  - DIRECT
 - name: "🎵 iTunes"
   type: select
   proxies:
   - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
+  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
+  - DIRECT
 - name: "☁️ iCloud"
   type: select
   proxies:
   - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
+  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
+  - DIRECT
 - name: "📨 Apple Push"
   type: select
   proxies:
   - "🇸🇬 新加坡节点"
-  - "🇨🇳 台湾节点"
-  - "🇭🇰 香港节点"
+  - "🇺🇸 美国节点"
+  - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
   - DIRECT
 - name: "🍎 苹果服务"
   type: select
   proxies:
   - "🇸🇬 新加坡节点"
-  - "🇨🇳 台湾节点"
-  - "🇭🇰 香港节点"
+  - "🇺🇸 美国节点"
+  - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
   - DIRECT
 - name: "📧 邮箱"
   type: select
@@ -176,9 +198,10 @@ proxy-groups:
 - name: "📹 TikTok"
   type: select
   proxies:
-  - "🇸🇬 新加坡节点"
-  - "🔗 ISP 链式代理"
+  - "📹 视频服务"
   - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
+  - "🇸🇬 新加坡节点"
   - "🇨🇳 台湾节点"
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
@@ -186,9 +209,10 @@ proxy-groups:
 - name: "✖️ X"
   type: select
   proxies:
-  - "🇸🇬 新加坡节点"
-  - "🔗 ISP 链式代理"
+  - "📹 视频服务"
   - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
+  - "🇸🇬 新加坡节点"
   - "🇨🇳 台湾节点"
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
@@ -196,9 +220,10 @@ proxy-groups:
 - name: "🌐 Meta"
   type: select
   proxies:
-  - "🇸🇬 新加坡节点"
-  - "🔗 ISP 链式代理"
+  - "📹 视频服务"
   - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
+  - "🇸🇬 新加坡节点"
   - "🇨🇳 台湾节点"
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
@@ -291,6 +316,7 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+  - DIRECT
 - name: "🏦 香港银行"
   type: select
   proxies:
@@ -301,6 +327,7 @@ proxy-groups:
   - "🇨🇳 台湾节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+  - DIRECT
 - name: "📈 券商"
   type: select
   proxies:
@@ -311,6 +338,7 @@ proxy-groups:
   - "🇨🇳 台湾节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+  - DIRECT
 - name: "💳 PayPal"
   type: select
   proxies:
@@ -347,8 +375,6 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "🇸🇬 新加坡节点"
-  - "🇨🇳 台湾节点"
-  - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
 - name: "🇸🇬 新加坡节点"
