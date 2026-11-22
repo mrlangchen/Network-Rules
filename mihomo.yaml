@@ -28,11 +28,10 @@ proxy-groups:
   - "🇺🇸 美国节点"
 - name: "📹 视频服务"
   type: select
-  default-selected: "✈️ CMYNetwork"
   proxies:
-  - "🚀 节点选择"
-  - "✈️ WgetCloud"
   - "✈️ CMYNetwork"
+  - "✈️ WgetCloud"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇹🇼 台湾节点"
   - "🇭🇰 香港节点"
@@ -76,15 +75,11 @@ proxy-groups:
   - "🔗 ISP 链式代理"
 - name: "🍎 Apple Intelligence"
   type: select
-  default-selected: "🇸🇬 新加坡节点"
   proxies:
-  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
-  - "🇨🇳 国内直连"
 - name: "☁️ CloudFlare"
   type: select
   proxies:
@@ -101,138 +96,116 @@ proxy-groups:
   - "🇺🇸 美国节点"
 - name: "🏎️ Formula 1"
   type: select
-  default-selected: "🇺🇸 美国节点"
   proxies:
+  - "🇺🇸 美国节点"
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
   - "✈️ CMYNetwork"
-  - "🇸🇬 新加坡节点"
-  - "🇺🇸 美国节点"
-  - "🇨🇳 国内直连"
 - name: "📺 Apple TV"
   type: select
-  default-selected: "🇺🇸 美国节点"
   proxies:
+  - "🇺🇸 美国节点"
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
   - "✈️ CMYNetwork"
-  - "🇸🇬 新加坡节点"
-  - "🇺🇸 美国节点"
-  - "🇨🇳 国内直连"
 - name: "🍎 Apple Account"
   type: select
-  default-selected: "🇸🇬 新加坡节点"
   proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "🛍️ App Store"
   type: select
-  default-selected: "🇸🇬 新加坡节点"
   proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "🎵 Apple Music"
   type: select
-  default-selected: "🇸🇬 新加坡节点"
   proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "🎵 iTunes"
   type: select
-  default-selected: "🇸🇬 新加坡节点"
   proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "☁️ iCloud"
   type: select
-  default-selected: "🇸🇬 新加坡节点"
   proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "📨 Apple Push"
   type: select
-  default-selected: "🇸🇬 新加坡节点"
   proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "🍏 Appple"
   type: select
-  default-selected: "🇸🇬 新加坡节点"
   proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "📧 邮箱"
   type: select
-  default-selected: "🔗 ISP 链式代理"
   proxies:
-  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🚀 节点选择"
+  - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
 - name: "🔎 Google"
   type: select
-  default-selected: "🔗 ISP 链式代理"
-  proxies:
-  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🚀 节点选择"
+  - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
 - name: Ⓜ️ 微软云盘
   type: select
-  default-selected: "🔗 ISP 链式代理"
   proxies:
-  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🚀 节点选择"
+  - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
 - name: Ⓜ️ 微软服务
   type: select
-  default-selected: "🔗 ISP 链式代理"
   proxies:
-  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🚀 节点选择"
+  - "🇸🇬 新加坡节点"
+  - "🇺🇸 美国节点"
 - name: "🌐 Meta"
   type: select
-  default-selected: "🔗 ISP 链式代理"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -241,7 +214,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "✖️ X"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -250,7 +222,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "📹 TikTok"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -259,7 +230,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "📲 电报消息"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -268,7 +238,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "📹 油管视频"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -277,7 +246,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "🎥 奈飞视频"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -286,7 +254,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "🎥 亚马逊视频"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -295,7 +262,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "🎥 迪士尼+"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -304,7 +270,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "📥 PikPak"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -313,7 +278,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "🎧 Spotify"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -322,7 +286,6 @@ proxy-groups:
   - "✈️ CMYNetwork"
 - name: "🧲 P2P 下载"
   type: select
-  default-selected: "📹 视频服务"
   proxies:
   - "📹 视频服务"
   - "🚀 节点选择"
@@ -332,64 +295,56 @@ proxy-groups:
   - "🇨🇳 国内直连"
 - name: "💳 PayPal"
   type: select
-  default-selected: "🔗 ISP 链式代理"
   proxies:
-  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
+  - "🇨🇳 国内直连"
 - name: "💳 Stripe"
   type: select
-  default-selected: "🔗 ISP 链式代理"
   proxies:
-  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
+  - "🇨🇳 国内直连"
 - name: "🪙 Binance"
   type: select
-  default-selected: "🔗 ISP 链式代理"
   proxies:
-  - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
+  - "🇨🇳 国内直连"
 - name: "🏦 香港银行"
   type: select
-  default-selected: "🚀 节点选择"
   proxies:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
   - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "📈 券商"
   type: select
-  default-selected: "🚀 节点选择"
   proxies:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
   - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "🏠 国内服务"
   type: select
-  default-selected: "🚀 节点选择"
   proxies:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
@@ -397,7 +352,6 @@ proxy-groups:
   - "🇨🇳 国内直连"
 - name: "🐟 漏网之鱼"
   type: select
-  default-selected: "🚀 节点选择"
   proxies:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
