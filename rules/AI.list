@@ -26,6 +26,13 @@ DOMAIN,humb.apple.com
 DOMAIN,register.appattest.apple.com
 DOMAIN,js.stripe.com
 
+DOMAIN-SUFFIX,intercomassets.com
+DOMAIN-SUFFIX,intercom-messenger.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,yoti.com
+DOMAIN,r.stripe.com
+DOMAIN,fcmtoken.googleapis.com
+
 # 身份核验。Persona 使用 withpersona.com 承载网页和 SDK，frompersona.com 用作发件域。
 # 域名规则只匹配实际连接。邮件中出现发件地址不会触发规则。
 DOMAIN-SUFFIX,withpersona.com
@@ -49,6 +56,8 @@ DOMAIN-SUFFIX,browser-intake-datadoghq.eu
 DOMAIN-SUFFIX,browser-intake-ap1-datadoghq.com
 DOMAIN-SUFFIX,browser-intake-ap2-datadoghq.com
 DOMAIN-SUFFIX,browser-intake-uk1-datadoghq.com
+DOMAIN-SUFFIX,us5.datadoghq.com
+DOMAIN-SUFFIX,usefathom.com
 # 已由上述后缀覆盖的原有主机
 # DOMAIN,rum.browser-intake-datadoghq.com
 # DOMAIN,browser-intake-datadoghq.com
