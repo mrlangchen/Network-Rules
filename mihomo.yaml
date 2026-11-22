@@ -20,10 +20,6 @@ proxy-groups:
   - "🇺🇸 美国节点"
   use:
   - AIRPORT
-- name: "🔗 ISP 链式代理"
-  type: select
-  proxies:
-  - REJECT
 - name: "📹 视频服务"
   type: select
   proxies:
@@ -34,6 +30,10 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+- name: "🔗 ISP 链式代理"
+  type: select
+  proxies:
+  - REJECT
 - name: "🤖 AI"
   type: select
   proxies:
@@ -382,6 +382,7 @@ proxy-groups:
   - "🇸🇬 新加坡节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+  - DIRECT
 - name: "🇸🇬 新加坡节点"
   type: url-test
   filter: "(?i)(🇸🇬|新加坡|Singapore|\\bSG\\b)"
@@ -788,24 +789,24 @@ rules:
 - "RULE-SET,ApplePush,📨 Apple Push"
 - "RULE-SET,Apple,🍎 苹果服务"
 - "RULE-SET,Mail,📧 邮箱"
-- RULE-SET,OneDrive,Ⓜ️ 微软云盘
 - "RULE-SET,Google,🔎 Google"
+- RULE-SET,OneDrive,Ⓜ️ 微软云盘
 - RULE-SET,Microsoft,Ⓜ️ 微软服务
-- "RULE-SET,TikTok,📹 TikTok"
-- RULE-SET,X,✖️ X
 - "RULE-SET,Meta,🌐 Meta"
+- RULE-SET,X,✖️ X
+- "RULE-SET,TikTok,📹 TikTok"
 - "RULE-SET,Telegram,📲 电报消息"
 - "RULE-SET,YouTube,📹 油管视频"
 - "RULE-SET,Netflix,🎥 奈飞视频"
 - "RULE-SET,AmazonPrime,🎥 亚马逊视频"
+- "RULE-SET,DisneyPlus,🎥 迪士尼+"
 - "RULE-SET,PikPak,📥 PikPak"
 - "RULE-SET,Spotify,🎧 Spotify"
-- "RULE-SET,DisneyPlus,🎥 迪士尼+"
 - "RULE-SET,P2PDownload,🧲 P2P 下载"
-- "RULE-SET,HKBank,🏦 香港银行"
-- "RULE-SET,Brokerage,📈 券商"
 - "RULE-SET,PayPal,💳 PayPal"
 - "RULE-SET,Stripe,💳 Stripe"
 - "RULE-SET,Binance,🪙 Binance"
+- "RULE-SET,HKBank,🏦 香港银行"
+- "RULE-SET,Brokerage,📈 券商"
 - "RULE-SET,Direct,🏠 国内服务"
 - "MATCH,🐟 漏网之鱼"
