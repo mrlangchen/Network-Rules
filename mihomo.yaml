@@ -165,7 +165,7 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
-- name: Ⓜ️ 微软云盘
+- name: "🔎 Google"
   type: select
   proxies:
   - "🔗 ISP 链式代理"
@@ -175,7 +175,7 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
-- name: "🔎 Google"
+- name: Ⓜ️ 微软云盘
   type: select
   proxies:
   - "🔗 ISP 链式代理"
@@ -195,7 +195,7 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
-- name: "📹 TikTok"
+- name: "🌐 Meta"
   type: select
   proxies:
   - "📹 视频服务"
@@ -217,7 +217,7 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
-- name: "🌐 Meta"
+- name: "📹 TikTok"
   type: select
   proxies:
   - "📹 视频服务"
@@ -272,6 +272,17 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+- name: "🎥 迪士尼+"
+  type: select
+  proxies:
+  - "📹 视频服务"
+  - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
+  - "🇸🇬 新加坡节点"
+  - "🇨🇳 台湾节点"
+  - "🇭🇰 香港节点"
+  - "🇯🇵 日本节点"
+  - "🇺🇸 美国节点"
 - name: "📥 PikPak"
   type: select
   proxies:
@@ -294,17 +305,6 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
-- name: "🎥 迪士尼+"
-  type: select
-  proxies:
-  - "📹 视频服务"
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
-  - "🇸🇬 新加坡节点"
-  - "🇨🇳 台湾节点"
-  - "🇭🇰 香港节点"
-  - "🇯🇵 日本节点"
-  - "🇺🇸 美国节点"
 - name: "🧲 P2P 下载"
   type: select
   proxies:
@@ -314,28 +314,6 @@ proxy-groups:
   - "🇸🇬 新加坡节点"
   - "🇨🇳 台湾节点"
   - "🇭🇰 香港节点"
-  - "🇯🇵 日本节点"
-  - "🇺🇸 美国节点"
-  - DIRECT
-- name: "🏦 香港银行"
-  type: select
-  proxies:
-  - "🇸🇬 新加坡节点"
-  - "🔗 ISP 链式代理"
-  - "🇭🇰 香港节点"
-  - "🚀 节点选择"
-  - "🇨🇳 台湾节点"
-  - "🇯🇵 日本节点"
-  - "🇺🇸 美国节点"
-  - DIRECT
-- name: "📈 券商"
-  type: select
-  proxies:
-  - "🇸🇬 新加坡节点"
-  - "🔗 ISP 链式代理"
-  - "🇭🇰 香港节点"
-  - "🚀 节点选择"
-  - "🇨🇳 台湾节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
   - DIRECT
@@ -369,20 +347,43 @@ proxy-groups:
   - "🇨🇳 台湾节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+- name: "🏦 香港银行"
+  type: select
+  proxies:
+  - DIRECT
+  - "🔗 ISP 链式代理"
+  - "🇸🇬 新加坡节点"
+  - "🇭🇰 香港节点"
+  - "🚀 节点选择"
+  - "🇨🇳 台湾节点"
+  - "🇯🇵 日本节点"
+  - "🇺🇸 美国节点"
+- name: "📈 券商"
+  type: select
+  proxies:
+  - DIRECT
+  - "🔗 ISP 链式代理"
+  - "🇸🇬 新加坡节点"
+  - "🇭🇰 香港节点"
+  - "🚀 节点选择"
+  - "🇨🇳 台湾节点"
+  - "🇯🇵 日本节点"
+  - "🇺🇸 美国节点"
 - name: "🏠 国内服务"
   type: select
   proxies:
   - DIRECT
   - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
 - name: "🐟 漏网之鱼"
   type: select
   proxies:
-  - "🚀 节点选择"
+  - DIRECT
   - "🔗 ISP 链式代理"
+  - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
-  - DIRECT
 - name: "🇸🇬 新加坡节点"
   type: url-test
   filter: "(?i)(🇸🇬|新加坡|Singapore|\\bSG\\b)"
