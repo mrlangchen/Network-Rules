@@ -5,9 +5,12 @@ require 'uri'
 
 ROOT = File.expand_path('..', __dir__)
 RAW = 'https://raw.githubusercontent.com/mrlangchen/Network-Rules/main'
-AIRPORTS = { 'AIRPORT' => 'WgetCloud' }.freeze
+AIRPORTS = {
+  'AIRPORT' => 'WgetCloud',
+  'CMY_AIRPORT' => 'CMYNetwork'
+}.freeze
 ISP_GROUP = '🔗 ISP 链式代理'
-ISP_NODE = '🏠 ISP 出口'
+ISP_NODE = 'ISP 出口'
 NATIVE_RULES = %w[DOMAIN DOMAIN-SUFFIX DOMAIN-KEYWORD DOMAIN-WILDCARD IP-CIDR IP-CIDR6 GEOIP].freeze
 PROCESS_TYPES = %w[PROCESS-NAME PROCESS-PATH PROCESS-NAME-REGEX PROCESS-PATH-REGEX].freeze
 
@@ -56,9 +59,14 @@ def group_line(group)
     when 'select'
       if name == ISP_GROUP
         raise 'Review public ISP binding' unless members == ['REJECT'] && providers.empty?
-        members = [ISP_NODE, 'REJECT']
+        [ISP_NODE, 'REJECT']
+      elsif members.empty? && providers.size == 1
+        [AIRPORTS.fetch(providers.first), 'use=true']
+      elsif providers.empty?
+        members
+      else
+        raise "Review provider membership: #{name}"
       end
-      members + providers
     when 'url-test'
       raise "Review provider membership: #{name}" unless members == ['REJECT'] && providers.size == 1
       [AIRPORTS.fetch(providers.first), 'use=true', "policy-regex-filter=#{group.fetch('filter')}",
@@ -115,8 +123,6 @@ raise 'Duplicate group/provider name' unless (names + providers).uniq.size == na
 raise 'Missing local ISP group' unless names.include?(ISP_GROUP)
 
 lines = [general.rstrip] + groups.map { |g| group_line(g) }
-# One adapter represents the provider whose individual nodes Mihomo expands in the main selector.
-providers.each { |id| lines << "#{id} = select,#{AIRPORTS.fetch(id)},use=true" }
 lines.concat(['', '[Rule]'])
 rules = config.fetch('rules')
 rules.each_with_index do |rule, index|
