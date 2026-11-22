@@ -183,6 +183,7 @@ proxy-groups:
   - "🇺🇸 美国节点"
 - name: "🔎 Google"
   type: select
+  proxies:
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
   - "🚀 节点选择"
