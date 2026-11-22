@@ -13,6 +13,18 @@ DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN,anthropic-com.ghost.io
 
+// 2026-11-23补充
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claudeacademy.com
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,ant.dev
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,antspace.dev
+DOMAIN-SUFFIX,chatbotclaude.com
+DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,claudestudio.com
+
 # Anthropic 公布的 API / Console 入站地址。客户端连接这些目标 IP 时走 Claude。
 # https://platform.claude.com/docs/en/api/ip-addresses
 IP-CIDR,160.79.104.0/23,no-resolve
