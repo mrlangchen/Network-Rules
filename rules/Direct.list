@@ -22,11 +22,13 @@ DOMAIN,mmsns.qpic.cn
 DOMAIN,wx.qlogo.cn
 
 # 飞书钉钉
-DOMAIN-SUFFIX,feishu.cn
+DOMAIN,ttnet-dig.feishu.cn
+DOMAIN,ttnet-doh.feishu.cn
 DOMAIN,accounts.feishu.cn
 DOMAIN,msg-frontier-lf.feishu.cn
 DOMAIN,meetings-quic.feishu.cn
 DOMAIN,s3-imfile.feishucdn.com
+DOMAIN-SUFFIX,feishu.cn
 DOMAIN,http2lwp.dingtalk.com
 DOMAIN,collab.dingtalk.com
 DOMAIN,alidocs.dingtalk.com
