@@ -49,6 +49,9 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
+  - "🔗 ISP 链式代理"
+  - "✈️ CMYNetwork"
+  - "✈️ WgetCloud"
 - name: "🔗 ISP 链式代理"
   type: select
   proxies:
