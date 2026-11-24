@@ -49,6 +49,8 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
+  - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
 - name: "🔗 ISP 链式代理"
   type: select
   proxies:
