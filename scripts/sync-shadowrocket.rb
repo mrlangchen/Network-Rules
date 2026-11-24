@@ -78,6 +78,15 @@ def group_line(group)
 end
 
 def render_list(id, provider, policy)
+  if id == 'ChinaMax'
+    upstream = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule'
+    expected = "#{upstream}/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml"
+    raise 'Review ChinaMax source' unless provider.fetch('url') == expected
+    source = "#{upstream}/Shadowrocket/ChinaMax"
+    return ["DOMAIN-SET,#{source}/ChinaMax_Domain.list,#{policy}",
+            "RULE-SET,#{source}/ChinaMax.list,#{policy}"]
+  end
+
   unless provider.values_at('type', 'behavior', 'format') == %w[http classical text]
     raise "Review rule provider format: #{id}"
   end
@@ -130,6 +139,8 @@ rules.each_with_index do |rule, index|
   if kind == 'MATCH' && index == rules.size - 1 && policy.nil?
     raise "Unknown final policy: #{id}" unless (names + %w[DIRECT REJECT]).include?(id)
     lines << "FINAL,#{id}"
+  elsif kind == 'GEOIP' && id == 'CN' && names.include?(policy) && !extra
+    lines << rule
   elsif kind == 'RULE-SET' && !extra
     raise "Unknown rule policy: #{policy}" unless (names + %w[DIRECT REJECT]).include?(policy)
     lines.concat(render_list(id, config.fetch('rule-providers').fetch(id), policy))

@@ -742,6 +742,14 @@ rule-providers:
     path: "./cache/rules/20261119-final/Binance.list"
     interval: 86400
     proxy: "🔗 ISP 链式代理"
+  ChinaMax:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml
+    path: "./cache/rules/ChinaMax_Classical_No_Resolve.yaml"
+    interval: 86400
+    proxy: "🔗 ISP 链式代理"
 rules:
 - RULE-SET,LAN,DIRECT
 - "RULE-SET,AI,🤖 AI"
@@ -784,4 +792,6 @@ rules:
 - "RULE-SET,HKBank,🏦 香港银行"
 - "RULE-SET,Brokerage,📈 券商"
 - "RULE-SET,Direct,🏠 国内服务"
+- "RULE-SET,ChinaMax,🏠 国内服务"
+- "GEOIP,CN,🏠 国内服务"
 - "MATCH,🐟 漏网之鱼"
