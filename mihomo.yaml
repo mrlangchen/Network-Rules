@@ -791,7 +791,7 @@ rules:
 - "RULE-SET,Binance,🪙 Binance"
 - "RULE-SET,HKBank,🏦 香港银行"
 - "RULE-SET,Brokerage,📈 券商"
-- "RULE-SET,Direct,🏠 国内服务"
 - "RULE-SET,ChinaMax,🏠 国内服务"
+- "RULE-SET,Direct,🏠 国内服务"
 - "GEOIP,CN,🏠 国内服务"
 - "MATCH,🐟 漏网之鱼"
