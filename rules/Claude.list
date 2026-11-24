@@ -13,7 +13,7 @@ DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN,anthropic-com.ghost.io
 
-// 2026-11-23补充
+# 2026-11-23补充
 DOMAIN-SUFFIX,claude.dev
 DOMAIN-SUFFIX,claude.site
 DOMAIN-SUFFIX,claudeacademy.com
