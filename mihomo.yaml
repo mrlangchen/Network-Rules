@@ -19,17 +19,31 @@ proxy-groups:
   proxies:
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
-  - "🇨🇳 国内直连"
+  - "📺 CMYNetwork"
   - "🇸🇬 新加坡节点"
   - "🇹🇼 台湾节点"
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
+  - "🇨🇳 国内直连"
+- name: "🏠 国内服务"
+  type: select
+  proxies:
+  - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
+  - "✈️ WgetCloud"
+  - "🇨🇳 国内直连"
+- name: "🐟 漏网之鱼"
+  type: select
+  proxies:
+  - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
+  - "✈️ WgetCloud"
+  - "🇨🇳 国内直连"
 - name: "📹 视频服务"
   type: select
   proxies:
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
   - "✈️ WgetCloud"
   - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
@@ -37,21 +51,18 @@ proxy-groups:
   - "🇭🇰 香港节点"
   - "🇯🇵 日本节点"
   - "🇺🇸 美国节点"
-- name: "✈️ WgetCloud"
-  type: select
-  use:
-  - AIRPORT
-- name: "✈️ CMYNetwork"
-  type: select
-  use:
-  - CMY_AIRPORT
 - name: "🇨🇳 国内直连"
   type: select
   proxies:
   - DIRECT
-  - "🔗 ISP 链式代理"
-  - "✈️ CMYNetwork"
-  - "✈️ WgetCloud"
+- name: "✈️ WgetCloud"
+  type: select
+  use:
+  - AIRPORT
+- name: "📺 CMYNetwork"
+  type: select
+  use:
+  - CMY_AIRPORT
 - name: "🔗 ISP 链式代理"
   type: select
   proxies:
@@ -79,40 +90,37 @@ proxy-groups:
 - name: "🍎 Apple Intelligence"
   type: select
   proxies:
+  - "✈️ WgetCloud"
   - "🔗 ISP 链式代理"
   - "🚀 节点选择"
-  - "🇸🇬 新加坡节点"
-  - "🇺🇸 美国节点"
 - name: "☁️ CloudFlare"
   type: select
   proxies:
+  - "✈️ WgetCloud"
   - "🔗 ISP 链式代理"
   - "🚀 节点选择"
-  - "🇸🇬 新加坡节点"
-  - "🇺🇸 美国节点"
 - name: "🐙 GitHub"
   type: select
   proxies:
+  - "✈️ WgetCloud"
   - "🔗 ISP 链式代理"
   - "🚀 节点选择"
-  - "🇸🇬 新加坡节点"
-  - "🇺🇸 美国节点"
 - name: "🏎️ Formula 1"
   type: select
   proxies:
   - "🇺🇸 美国节点"
   - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
+  - "🔗 ISP 链式代理"
 - name: "📺 Apple TV"
   type: select
   proxies:
   - "🇺🇸 美国节点"
   - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
+  - "🔗 ISP 链式代理"
 - name: "🍎 Apple Account"
   type: select
   proxies:
@@ -176,54 +184,58 @@ proxy-groups:
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
-- name: "📧 邮箱"
+- name: "📧 Mail"
   type: select
   proxies:
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
+  - "🔗 ISP 链式代理"
   - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
+  - "🇨🇳 国内直连"
 - name: "🔎 Google"
   type: select
   proxies:
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
+  - "🔗 ISP 链式代理"
   - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
-- name: Ⓜ️ 微软云盘
+  - "🇨🇳 国内直连"
+- name: Ⓜ️ OneDrive
   type: select
   proxies:
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
+  - "🔗 ISP 链式代理"
   - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
-- name: Ⓜ️ 微软服务
+  - "🇨🇳 国内直连"
+- name: Ⓜ️ Microsoft
   type: select
   proxies:
-  - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
+  - "🔗 ISP 链式代理"
   - "🚀 节点选择"
   - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
+  - "🇨🇳 国内直连"
 - name: "🌐 Meta"
   type: select
   proxies:
-  - "📹 视频服务"
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
+  - "📹 视频服务"
 - name: "✖️ X"
   type: select
   proxies:
-  - "📹 视频服务"
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
+  - "📹 视频服务"
 - name: "📹 TikTok"
   type: select
   proxies:
@@ -231,15 +243,7 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
-- name: "📲 电报消息"
-  type: select
-  proxies:
-  - "📹 视频服务"
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
 - name: "📹 油管视频"
   type: select
   proxies:
@@ -247,7 +251,15 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
+- name: "📲 电报消息"
+  type: select
+  proxies:
+  - "📹 视频服务"
+  - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
+  - "✈️ WgetCloud"
+  - "📺 CMYNetwork"
 - name: "🎥 奈飞视频"
   type: select
   proxies:
@@ -255,7 +267,7 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
 - name: "🎥 亚马逊视频"
   type: select
   proxies:
@@ -263,7 +275,7 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
 - name: "🎥 迪士尼+"
   type: select
   proxies:
@@ -271,7 +283,7 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
 - name: "📥 PikPak"
   type: select
   proxies:
@@ -279,7 +291,7 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
 - name: "🎧 Spotify"
   type: select
   proxies:
@@ -287,7 +299,7 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
 - name: "🧲 P2P 下载"
   type: select
   proxies:
@@ -295,14 +307,13 @@ proxy-groups:
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
   - "✈️ WgetCloud"
-  - "✈️ CMYNetwork"
+  - "📺 CMYNetwork"
   - "🇨🇳 国内直连"
 - name: "💳 PayPal"
   type: select
   proxies:
-  - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
   - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
   - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
@@ -310,9 +321,8 @@ proxy-groups:
 - name: "💳 Stripe"
   type: select
   proxies:
-  - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
   - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
   - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
@@ -320,9 +330,8 @@ proxy-groups:
 - name: "🪙 Binance"
   type: select
   proxies:
-  - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
   - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
   - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
@@ -330,36 +339,20 @@ proxy-groups:
 - name: "🏦 香港银行"
   type: select
   proxies:
+  - "🇭🇰 香港节点"
   - "🚀 节点选择"
   - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
   - "🇸🇬 新加坡节点"
-  - "🇭🇰 香港节点"
   - "🇺🇸 美国节点"
   - "🇨🇳 国内直连"
 - name: "📈 券商"
   type: select
   proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
-  - "🇸🇬 新加坡节点"
   - "🇭🇰 香港节点"
+  - "🚀 节点选择"
+  - "🔗 ISP 链式代理"
+  - "🇸🇬 新加坡节点"
   - "🇺🇸 美国节点"
-  - "🇨🇳 国内直连"
-- name: "🏠 国内服务"
-  type: select
-  proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
-  - "🇨🇳 国内直连"
-- name: "🐟 漏网之鱼"
-  type: select
-  proxies:
-  - "🚀 节点选择"
-  - "🔗 ISP 链式代理"
-  - "✈️ WgetCloud"
   - "🇨🇳 国内直连"
 - name: "🇸🇬 新加坡节点"
   type: url-test
@@ -774,15 +767,15 @@ rules:
 - RULE-SET,iCloud,☁️ iCloud
 - "RULE-SET,ApplePush,📨 Apple Push"
 - "RULE-SET,Apple,🍏 Appple"
-- "RULE-SET,Mail,📧 邮箱"
+- "RULE-SET,Mail,📧 Mail"
 - "RULE-SET,Google,🔎 Google"
-- RULE-SET,OneDrive,Ⓜ️ 微软云盘
-- RULE-SET,Microsoft,Ⓜ️ 微软服务
+- RULE-SET,OneDrive,Ⓜ️ OneDrive
+- RULE-SET,Microsoft,Ⓜ️ Microsoft
 - "RULE-SET,Meta,🌐 Meta"
 - RULE-SET,X,✖️ X
 - "RULE-SET,TikTok,📹 TikTok"
-- "RULE-SET,Telegram,📲 电报消息"
 - "RULE-SET,YouTube,📹 油管视频"
+- "RULE-SET,Telegram,📲 电报消息"
 - "RULE-SET,Netflix,🎥 奈飞视频"
 - "RULE-SET,AmazonPrime,🎥 亚马逊视频"
 - "RULE-SET,DisneyPlus,🎥 迪士尼+"
